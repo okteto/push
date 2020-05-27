@@ -1,4 +1,4 @@
-name: "Push"
+name: "Okteto Push"
 description: "Build, push and deploy your changes to Okteto Cloud"
 inputs:
   namespace: 
