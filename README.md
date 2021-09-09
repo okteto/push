@@ -45,23 +45,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-    - uses: okteto/login@master
+    - uses: okteto/login@latest
       with:
         token: ${{ secrets.OKTETO_TOKEN }}
     
     - name: "Activate Namespace"
-      uses: okteto/namespace@master
+      uses: okteto/namespace@latest
       with:
         name: cindylopez
     
     - name: "Deploy application"
-      uses: okteto/apply@master
+      uses: okteto/apply@latest
       with:
         namespace: cindylopez
         manifest: k8s.yaml
 
     - name: "Push changes"
-      uses: okteto/push@master
+      uses: okteto/push@latest
       with:
         namespace: cindylopez
         name: hello-world
@@ -89,23 +89,23 @@ jobs:
        OKTETO_CA_CERT: ${{ secrets.OKTETO_CA_CERT }}
      steps:
      
-     - uses: okteto/login@master
+     - uses: okteto/login@latest
        with:
          token: ${{ secrets.OKTETO_TOKEN }}
      
    - name: "Activate Namespace"
-      uses: okteto/namespace@master
+      uses: okteto/namespace@latest
       with:
         name: cindylopez
     
     - name: "Deploy application"
-      uses: okteto/apply@master
+      uses: okteto/apply@latest
       with:
         namespace: cindylopez
         manifest: k8s.yaml
 
     - name: "Push changes"
-      uses: okteto/push@master
+      uses: okteto/push@latest
       with:
         namespace: cindylopez
         name: hello-world
