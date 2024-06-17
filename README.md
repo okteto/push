@@ -1,3 +1,16 @@
+# ⚠️ CAUTION: DEPRECATED GITHUB ACTION ⚠️
+
+## Important Notice
+
+### 🚨 This GitHub Action is Deprecated
+
+This GitHub Action is now **deprecated** and will no longer receive updates or maintenance. Please consider the following points before continuing to use this action:
+
+1. **No Future Updates:** There will be no further updates, improvements, or bug fixes.
+2. **Potential Security Risks:** Without updates, this action may become vulnerable to security risks.
+3. **Compatibility Issues:** Future changes to GitHub Actions or dependencies may cause this action to break or function improperly.
+4. **No Support:** We will no longer provide support for any issues or questions related to this action.
+
 # GitHub Actions for Okteto Cloud
 
 ## Automate your development workflows using Github Actions and Okteto Cloud
